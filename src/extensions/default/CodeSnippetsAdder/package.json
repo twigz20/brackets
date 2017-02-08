@@ -1,0 +1,20 @@
+{
+  "name": "Code Snippets Adder",
+  "version": "0.0.1",
+  "description": "Ability to insert code snippets into files",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twigz20/CodeSnippetsAdder"
+  },
+  "keywords": [
+    "insert",
+    "snippets"
+  ],
+  "author": "Jerry Goguette (https://github.com/twigz20)",
+  "license": "",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/twigz20/CodeSnippetsAdder"
+}
