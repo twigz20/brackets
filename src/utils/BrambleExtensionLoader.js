@@ -35,7 +35,7 @@ define(function (require, exports, module) {
         "BrambleUrlCodeHints",
         "UploadFiles",
         "bramble-move-file",
-		"CodeSnippetsAdder"
+        "CodeSnippetsAdder"
     ];
 
     /**
