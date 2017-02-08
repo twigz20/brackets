@@ -32,6 +32,6 @@ define(function (require, exports, module) {
         }
     }	
 	
-	CommandManager.registerInternal(CMD_ADD_CODE_SNIPPET_ID,addCodeSnippet);
+    CommandManager.registerInternal(CMD_ADD_CODE_SNIPPET_ID,addCodeSnippet);
 });
 
