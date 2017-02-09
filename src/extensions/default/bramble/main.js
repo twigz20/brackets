@@ -34,7 +34,6 @@ define(function (require, exports, module) {
         RemoteCommandHandler = require("lib/RemoteCommandHandler"),
         RemoteEvents         = require("lib/RemoteEvents");
 
-
     ExtensionUtils.loadStyleSheet(module, "stylesheets/style.css");
     ExtensionUtils.loadStyleSheet(module, "stylesheets/sidebarTheme.css");
 
@@ -158,7 +157,7 @@ define(function (require, exports, module) {
                     // load the initial document into the preview.
                     startLiveDev();
 					
-					BrambleCodeSnippets.init();
+                    BrambleCodeSnippets.init();
 
                     UI.initUI(finishStartup);
                 });
