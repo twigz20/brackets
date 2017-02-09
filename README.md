@@ -333,7 +333,7 @@ to be notified when the action completes:
 * `useLightTheme([callback])` - sets the editor to use the light theme (default)
 * `useDarkTheme([callback])` - sets the editor to use the dark theme
 * `showSidebar([callback])` - opens the file tree sidebar
-* `hideSidebar([callback])` - hides the file tree sidebar
+`* `hideSidebar([callback])` - hides the file tree sidebar
 * `showStatusbar([callback])` - enables and shows the statusbar
 * `hideStatusbar([callback])` - disables and hides the statusbar
 * `refreshPreview([callback])` - reloads the preview with the latest content in the editor and filesystem
@@ -355,7 +355,7 @@ to be notified when the action completes:
 * `addNewFile([options, callback])` - adds a new text file, using the provided options, which can include: `filename` a `String` with the complete filename to use; `contents` a `String` with the new text file's data; `ext` a `String` with the new file's extension; `basenamePrefix` a `String` with the basename to use when generating a new filename.  NOTE: if you provide `filename`, `basenamePrefix` and `ext` are ignored.
 * `addNewFolder([callback])` - adds a new folder.
 * `export([callback])` - creates an archive `.zip` file of the entire project's filesystem, and downloads it to the browser.
-* `addCodeSnippet(snippet, [callback])` - adds a new code snippet to the editor (if it is in focus) at the current cursor position. One required parameter (`snippet`) needs to be passed in which needs to be a `String`.
+* `addCodeSnippet(snippet, [callback])` - adds a new code `snippet` to the editor (if it is in focus) at the current cursor position. One required parameter (`snippet`) needs to be passed in which needs to be a `String`.
 
 ## Bramble Instance Events
 
