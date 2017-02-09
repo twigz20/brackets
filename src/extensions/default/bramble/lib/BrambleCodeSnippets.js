@@ -19,16 +19,16 @@ define(function (require, exports, module) {
          * @param {string} snippet The snippet to insert.
          */
         function addCodeSnippet(snippet) {
-            var editor = EditorManager.getCurrentFullEditor();
+            var editor = EditorManager.getFocusedEditor();
             if (editor) {
                 var insertionPos = editor.getCursorPos();
                 editor.document.replaceRange(snippet, insertionPos);
             }
         }	
 	
-        CommandManager.registerInternal(CMD_ADD_CODE_SNIPPET_ID,addCodeSnippet);
+        CommandManager.registerInternal(CMD_ADD_CODE_SNIPPET_ID, addCodeSnippet);
     }
 	
-	exports.init = init;
+    exports.init = init;
 });
 
