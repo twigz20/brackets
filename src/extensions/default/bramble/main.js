@@ -156,7 +156,7 @@ define(function (require, exports, module) {
                     // Setup the iframe browser and Blob URL live dev servers and
                     // load the initial document into the preview.
                     startLiveDev();
-					
+		
                     BrambleCodeSnippets.init();
 
                     UI.initUI(finishStartup);
