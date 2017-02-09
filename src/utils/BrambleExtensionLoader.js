@@ -34,8 +34,7 @@ define(function (require, exports, module) {
         "brackets-paste-and-indent",
         "BrambleUrlCodeHints",
         "UploadFiles",
-        "bramble-move-file",
-        "BrambleCodeSnippets"
+        "bramble-move-file"
     ];
 
     /**
