@@ -20,12 +20,7 @@ define(function (require, exports, module) {
          * @param {string} snippet The snippet to insert.
          */
         function addCodeSnippet(snippet) {
-			if(!EditorManager.getFocusedEditor()) {
-				EditorManager.focusEditor();
-			}
-			
 			MainViewManager.focusActivePane();
-			
             var editor = EditorManager.getActiveEditor();
             if (editor) {
                 var insertionPos = editor.getCursorPos();
